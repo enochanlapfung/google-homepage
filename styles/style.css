@@ -1,3 +1,30 @@
+.top-panel, .bottom-panel, .center-panel {
+  border: 1px black solid;
+}
+
+.top-panel, .bottom-panel {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+.top-panel {
+  top: 0;
+  height: 50px;
+}
+
+.bottom-panel {
+  bottom: 0;
+  height: 50px;
+}
+
+.center-panel {
+  height: 600px;
+  width: 800px;
+  margin: 100px auto;
+  position: relative;
+}
+
 .logo {
   height: 92px;
   width: 272px;
