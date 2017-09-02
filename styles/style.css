@@ -71,10 +71,28 @@
   border: none;
 }
 
-#search-button {
+.nav-bar-top, .nav-bar-bottom {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
 
+  color: grey;
+
+  position: fixed;
+  width: 100%;
+  height: 44px;
 }
 
-#lucky-button {
+.nav-bar-top li, .nav-bar-bottom li {
+  display: inline;
+  float: left;
+  margin: 10px 20px;
+}
 
+.nav-bar-top {
+  top: 0;
+}
+
+.nav-bar-bottom {
+  bottom: 0;
 }
