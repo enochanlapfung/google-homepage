@@ -1,32 +1,80 @@
-.top-panel, .bottom-panel, .center-panel {
-  border: 1px black solid;
+
+.main, .container {
+  text-align: center;
+
+  /* Debugging */
+  /*border: 1px black solid;*/
 }
 
-.top-panel, .bottom-panel {
-  position: fixed;
-  right: 0;
-  left: 0;
+.main {
+  /*background-color: green;*/
+  margin-top: 200px;
 }
 
-.top-panel {
-  top: 0;
-  height: 50px;
-}
-
-.bottom-panel {
-  bottom: 0;
-  height: 50px;
-}
-
-.center-panel {
-  height: 600px;
-  width: 800px;
-  margin: 100px auto;
+.container {
+  width: 600px;
+  height: 44px;
+  margin: 20px auto;
   position: relative;
 }
 
-.logo {
-  height: 92px;
-  width: 272px;
-  margin: 100px auto;
+.container.text-container {
+  border-top: none;
+  border-left: 1px grey solid;
+  border-right: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+
+#search-bar {
+  float: left;
+
+  height: 34px;
+  width: 85%;
+
+  border: none;
+}
+
+#voice-search {
+  float: right;
+
+  height: 100%;
+  width: 10%;
+
+  background-image: url("../images/microphone.png");
+  background-size: 24px 24px;
+
+  background-color: white;
+  border: none;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#search-button, #lucky-button {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+  color: grey;
+
+  padding-left: 16px;
+  padding-right: 16px;
+
+  margin: 11px 4px;
+
+  height: 34px;
+  width: 110px;
+
+  box-sizing: content-box;
+
+  background-color: white;
+  border: none;
+}
+
+#search-button {
+
+}
+
+#lucky-button {
+
 }
